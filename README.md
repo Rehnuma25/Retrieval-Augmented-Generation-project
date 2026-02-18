@@ -1,9 +1,6 @@
 # Retrieval-Augmented-Generation-project
-# RAG Project – Retrieval-Augmented Generation
-
+---------
 A Retrieval-Augmented Generation (RAG) system built using LLM + Vector Database to provide context-aware answers from custom documents.
-
-
 
 ## Project Overview
 
@@ -42,8 +39,12 @@ This will:
 
 -------
 <img width="539" height="238" alt="Screenshot 2026-02-18 195545" src="https://github.com/user-attachments/assets/e3863ed6-9904-413b-9553-89815c42a315" />
+-----------
 index.html shows:
-<img width="1584" height="551" alt="cf1030cc-f576-47e1-9411-e4f46d074121" src="https://github.com/user-attachments/assets/472febad-7aa0-4ec6-800b-632d457b3890" />
+-------
+<img width="1050" height="500" alt="cf1030cc-f576-47e1-9411-e4f46d074121" src="https://github.com/user-attachments/assets/472febad-7aa0-4ec6-800b-632d457b3890" />
+
+-----so this is my mini project ...
 
 
 
