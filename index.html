@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAG Chat</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: cyan;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            width: 400px;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: none;
+            background-color: pink;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        button:hover {
+            background-color: #ffb6c1;
+        }
+
+        .answer {
+            margin-top: 30px;
+            font-size: 18px;
+            max-width: 600px;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Ask Question</h1>
+
+    <form action="/ask" method="post">
+        <input type="text" name="question" placeholder="Type your question here..." required>
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if answer %}
+        <div class="answer">
+            <h3>Answer:</h3>
+            <p>{{ answer }}</p>
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
